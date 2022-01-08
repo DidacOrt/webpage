@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Página de inicio</title>
+
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,600;0,800;1,400&display=swap" rel="stylesheet">
+
+      <link rel="stylesheet" href="css/estilos.css">
+  </head>
+  <body>
+      <header>
+        <div class="titular-lema-container">
+          <p class="lema">No hay planeta B</p>
+          <p class="titular"><a href="index.html">1,5 ºC</a></p>
+        </div>
+      </header>
+      <nav>
+        <ul class="nav-menu-list">
+          <li class="nav-menu-item"><a href="sintomas.html">Síntomas del cambio climático </a></li>
+          <li class="nav-menu-item"><a href="videos.html">Videos</a></li>
+          <li class="nav-menu-item"><a href="cop26.html">COP26</a></li>
+        </ul>
+      </nav>
+      <main>
+        <!-- BANNER -->
+        <section class="banner-section">
+          <figure class="banner-figure">
+            <img class="banner-image" src="./images/bg-hero-home.jpg" alt="Bosque en llamas">
+            <figcaption class="container banner-figcaption"><h1 class="banner-motto">La crisis climática, ¿una carrera que podemos ganar?</h1></figcaption>
+          </figure>
+        </section>
+        <!-- GRADO Y MEDIO -->
+        <section class="container">
+
+            <h1>¿Qué es Un grado y medio?</h1>
+            <p class="description">El acuerdo de París de 2015 sobre el cambio climático exige que el calentamiento global se mantenga por debajo de 1,5 grados centígrados. ¿Se está haciendo todo lo que se puede al respecto?</p>
+            <p class="description">En Un grado y medio estamos preocupados por el cambio climático y desde aquí os queremos mantener informados y atentos a las iniciativas de acción climática.</p>
+
+        </section>
+        <!-- NOTICIAS -->
+        <section class="container">
+
+            <h1>Noticias</h1>
+            <div class="dis-flex justify-between">
+              <article>
+                <img src="./images/n-greta-thunberg.jpg" alt="Greta Thunberg">
+                <div class="date-margin">
+                  <time class="date-margin" datetime="2021-11-14">14.11.2021</time>
+                </div>
+                <h2><a href="">Greta Thunberg lamenta el acuerdo de la COP26</a></h2>
+                <p>&quot;Bla, bla, bla&quot;. Esta es la descripción que Greta Thunberg ha hecho del acuerdo que ha puesto fin a la COP26 de Glasgow …</p>
+                <span><a href="">Leer más</a></span>
+              </article>
+
+              <article>
+                <img src="./images/n-delhi.jpg" alt="Contaminación en el aire">
+                <div class="date-margin">
+                  <time class="date-margin" datetime="2021-11-13">13.11.2021</time>
+                </div>
+                <h2><a href="">El estado indio de Delhi cierra escuelas por la contaminación del aire</a></h2>
+                <p>El Gobierno ha ordenado el cierre de escuelas, ha paralizado la construcción y ha decretado que los funcionarios trabajen obligatoriamente desde casa, debido a la contaminación del aire …</p>
+                <span><a href="">Leer más</a></span>
+              </article>
+
+              <article>
+                <img src="./images/n-estres.jpg" alt="Imagen de una puerta y sombra">
+                <div class="date-margin">
+                  <time class="date-margin" datetime="2021-10-07">07.10.2021</time>
+                </div>
+                <h2><a href="">La ansiedad climática: un problema de salud mental</a></h2>
+                <p>Diversos estudios aseguran que el escenario apocalíptico que augura el cambio climático causa estrés, sobre todo en niños y adolescentes …</p>
+                <span><a href="">Leer más</a></span>
+              </article>
+            </div>
+
+        </section>
+        <!-- SUSCRIPCION -->
+        <section class="subscription-section">
+          <div class="container">
+            <h1>Suscríbete a nuestro boletín de noticias</h1>
+            <form method="post" action="#">
+              <div>
+                <input type="text" name="nombre" id="nombre" placeholder="Nombre" required>
+              </div>
+              <div>
+                <input type="email" name="correo" id="correo" placeholder="Correo electrónico" required>
+              </div>
+              <p>INFORMACIÓN SOBRE PROTECCIÓN DE DATOS DE <strong>Un grado y medio</strong>. <strong>Finalidades</strong>: recogida de datos para el envío de información. <strong>Legitimación</strong>: Consentimiento del interesado. <strong>Destinatarios</strong>: No están previstas cesiones de datos a terceros, excepto obligación legal. <strong>Derechos</strong>: Puede retirar su consentimiento en cualquier momento, así como acceder, rectificar, suprimir sus datos y otros derechos dirigiéndose a <a href="">info@ungradoymedio.info</a>. <strong>Información Adicional</strong>: Puede ampliar la información en el enlace de <a href="">Aviso legal</a> y <a href="">Política de privacidad</a>.</p>
+              <div class="checkbox">
+                <input type="checkbox" id="terminosPrivacidad" name="terminosPrivacidad" value="yes" required>
+                <label for="terminosPrivacidad">He leído y acepto la política de privacidad</label>
+              </div>
+              <button type="submit">Suscríbeme</button>
+              <span class="icon icon-twitter"></span>
+            </form>
+          </div>
+        </section>
+      </main>
+      <footer>
+        <div class="container dis-flex pb-0">
+          <!-- NAVEGACIÓN SECUNDARIA -->
+          <ul class="footer-list">
+            <li class="footer-list-item"><a href="">Sobre nosotros</a></li>
+            <li class="footer-list-item"><a href="">Aviso legal</a></li>
+            <li class="footer-list-item"><a href="">Política de privacidad</a></li>
+            <li class="footer-list-item"><a href="">Política de cookies</a></li>
+          </ul>
+          <!-- NAVEGACIÓN A REDES -->
+          <ul class="social-media-list">
+            <li class="social-media-list-item"><a href=""><i class="icon-twitter"></i><span>twitter</span></a></li>
+            <li class="social-media-list-item"><a href=""><i class="icon-instagram"></i><span>instagram</span></a></li>
+            <li class="social-media-list-item"><a href=""><i class="icon-youtube"></i><span>youtube</span></a></li>
+          </ul>
+          <p class="footer-text">Actividad realizada por Dídac Ortega Escalera, para la asignatura HTML y CSS. Primer semestre del curso 2021-2022</p>
+        </div>
+      </footer>
+  </body>
+</html>
